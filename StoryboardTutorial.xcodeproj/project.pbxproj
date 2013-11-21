@@ -21,6 +21,8 @@
 		C483830C183DC98C00386899 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48382EE183DC98C00386899 /* UIKit.framework */; };
 		C4838314183DC98C00386899 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4838312183DC98C00386899 /* InfoPlist.strings */; };
 		C4838316183DC98C00386899 /* StoryboardTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4838315183DC98C00386899 /* StoryboardTutorialTests.m */; };
+		C4838322183DD05400386899 /* StoryboardTutorialViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C4838320183DD05400386899 /* StoryboardTutorialViewController2.m */; };
+		C4838323183DD05400386899 /* StoryboardTutorialViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4838321183DD05400386899 /* StoryboardTutorialViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		C4838311183DC98C00386899 /* StoryboardTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		C4838313183DC98C00386899 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4838315183DC98C00386899 /* StoryboardTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardTutorialTests.m; sourceTree = "<group>"; };
+		C483831F183DD05400386899 /* StoryboardTutorialViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardTutorialViewController2.h; sourceTree = "<group>"; };
+		C4838320183DD05400386899 /* StoryboardTutorialViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardTutorialViewController2.m; sourceTree = "<group>"; };
+		C4838321183DD05400386899 /* StoryboardTutorialViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryboardTutorialViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				C48382F9183DC98C00386899 /* StoryboardTutorialAppDelegate.h */,
 				C48382FA183DC98C00386899 /* StoryboardTutorialAppDelegate.m */,
 				C48382FC183DC98C00386899 /* Main.storyboard */,
+				C483831F183DD05400386899 /* StoryboardTutorialViewController2.h */,
+				C4838320183DD05400386899 /* StoryboardTutorialViewController2.m */,
+				C4838321183DD05400386899 /* StoryboardTutorialViewController2.xib */,
 				C48382FF183DC98C00386899 /* StoryboardTutorialViewController.h */,
 				C4838300183DC98C00386899 /* StoryboardTutorialViewController.m */,
 				C4838302183DC98C00386899 /* Images.xcassets */,
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4838323183DD05400386899 /* StoryboardTutorialViewController2.xib in Resources */,
 				C4838303183DC98C00386899 /* Images.xcassets in Resources */,
 				C48382F5183DC98C00386899 /* InfoPlist.strings in Resources */,
 				C48382FE183DC98C00386899 /* Main.storyboard in Resources */,
@@ -250,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4838322183DD05400386899 /* StoryboardTutorialViewController2.m in Sources */,
 				C4838301183DC98C00386899 /* StoryboardTutorialViewController.m in Sources */,
 				C48382F7183DC98C00386899 /* main.m in Sources */,
 				C48382FB183DC98C00386899 /* StoryboardTutorialAppDelegate.m in Sources */,

@@ -1,5 +1,5 @@
 //
-//  StoryboardTutorialViewController.h
+//  StoryboardTutorialViewController2.h
 //  StoryboardTutorial
 //
 //  Created by Bob Roberts on 11/20/13.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StoryboardTutorialViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *nextBtn;
+@interface StoryboardTutorialViewController2 : UIViewController
+- (IBAction)goBack:(id)sender;
 
 @end
